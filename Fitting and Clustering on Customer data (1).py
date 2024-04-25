@@ -330,7 +330,7 @@ def fit_line(Mall_data, x_column, y_column):
     x = Mall_data[[x_column]]
     y = Mall_data[y_column]
     
-    print("Shape of x:", X.shape)  # Printing the shape of X to check it's 2D
+    print("Shape of x:", x.shape)  # Printing the shape of X to check it's 2D
     print("Shape of y:", y.shape)  # Printing the shape of y to check it's 1D 
     
     #Initialize linear regression model
